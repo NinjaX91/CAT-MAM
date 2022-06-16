@@ -7,24 +7,16 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.CATMAM.AppBarOverlay">
+        android:theme="@style/Theme.IntuneSDKCAT.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.CATMAM.PopupOverlay" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="MAM App Version 0.1 Beta"
-            android:visibility="visible" />
+            app:popupTheme="@style/Theme.IntuneSDKCAT.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
